@@ -1,6 +1,6 @@
 use nanoid::nanoid;
 
-use rand::Rng;
+use rand::RngExt;
 
 fn random(size: usize) -> Vec<u8> {
     let mut rng = rand::rng();
